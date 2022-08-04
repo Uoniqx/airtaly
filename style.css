@@ -7,16 +7,66 @@ body {
 }
 
 .header {
+    background: rgba(0, 0, 0, .4);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 72px;
-    background-color: #1f2937;
     color: #f9faf8;
     padding: 0 300px;
     font-size: 24px;
     font-weight: 900;
     font-style: italic;
+}
+
+.topbg {
+    background-size: cover;
+    background-position: 0 1300px;
+    background-image: url("./images/pexels-jacob-morch-572780.jpg");
+}
+
+.hero {
+    padding: 100px 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.welcome {
+    color: #f9faf8;
+    font-size: 68px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.herotext {
+    color: #f9faf8;
+    font-size: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+button.booknow {
+    display: block;
+    background: #008080;
+    border: none;
+    color: white;
+    width: 175px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mainimg {
+    width: 500px;
+    height: 200px;
 }
 
 ul {
@@ -27,9 +77,10 @@ ul {
 }
 
 a {
-    color: #e5e7eb;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
 }
+
