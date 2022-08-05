@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    min-height: 100vh;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -40,6 +40,7 @@ body {
     font-weight: 900;
     margin: 0;
     padding: 0;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .herotext {
@@ -51,12 +52,13 @@ body {
 button {
     padding: 8px 16px;
     border-radius: 10px;
+    box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.41);
+    border: 2px solid white;
 }
 
 button.booknow {
     display: block;
     background: #008080;
-    border: none;
     color: white;
     width: 175px;
     height: 50px;
@@ -84,3 +86,118 @@ a {
     font-style: normal;
 }
 
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.41);
+}
+
+.texthead {
+    text-align: center;
+    margin-bottom: 52px;
+    margin-top: 32px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #008080;
+}
+
+.infohead {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    padding: 0 300px;
+}
+
+.text {
+    margin-top: 24px;
+    margin-bottom: 52px;
+}
+
+.quote {
+    padding: 0 300px;
+    height: 400px;
+    background-color: #008080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.39);
+}
+
+.qtext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #f9faf8;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.qper {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 100px;
+}
+
+.lower {
+    background-size: cover;
+    background-position: 0 750px;
+    background-image: url("./images/Adigevalley.jpeg");
+}
+
+.lowhead {
+    padding: 0 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 120px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background: #008080;
+    box-shadow: 0px 2px 15px 5px rgba(0,0,0,0.41);
+    padding: 0 200px;
+}
+
+.cont-text {
+    color: #f9faf8;
+}
+
+.cont-text h2 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+.cont-text p {
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.booknowb {
+    flex-shrink: 0;
+    height: 36px;
+    width: 128px;
+    padding: 4px 24px;
+    margin: 24px auto;
+    background: #008080;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+footer {
+    overflow: hidden;
+    background: rgba(0, 0, 0, .4);
+}
+
+footer p {
+    padding: 24px;
+    text-align: center;
+    color: #f9faf8;
+}
